@@ -4,6 +4,7 @@ def main():
     
     print("Sum of array: ", sumOfList(arr))
     print("Product of array: ", productOfList(arr))
+    print("Reversed array: ", reverseList(arr))
 
 def sumOfList(input):
     size = 0
@@ -16,3 +17,7 @@ def productOfList(input):
     for i in input:
         size *= i
     return size
+
+def reverseList(input):
+    input.reverse()
+    return input
